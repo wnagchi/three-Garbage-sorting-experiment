@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SysMode>
+  <init CameraX="0"  CameraY="0"  CameraZ="2500" bgcolor="0x000000" bgImage="" skyBox="false" skyBoxSize="100" skyBox1="mode/posx.jpg" skyBox2="mode/negx.jpg" skyBox3="mode/posy.jpg" skyBox4="mode/negy.jpg" skyBox5="mode/posz.jpg" skyBox6="mode/negz.jpg">init</init>
+  <Scene x="0" y="-0" z="0" Rx="0" Ry="0" Rz="0"  SW="1" SH="1" SD="1" CtrlMin_X="-1"  CtrlMax_X="-1"  CtrlMin_Y="70"  CtrlMax_Y="80"  CtrlMin_Z="100"  CtrlMax_Z="3000">Scene</Scene>
+  <Material color="0xc5bfbf"  emissive="0xdfd2cc" specular="0x111111" Reservedcolor="0x000000" normalMap=""  emissiveMap="" specularMap="" shininess="30" ReserveValue="true" skinning="false" Alpha="1" DoubleSide="2" aoMap="" envMap="false" reflectivity="1" refractionRatio="0.98">code_init</Material>
+  <Pic x="-2000" y="268" z="-2000" Rx="0" Ry="0" Rz="0" DW="1000" DH="800" DD="6000" iw="1" ih="1" img="mode/jixie/航院.jpg" codenum="code_0012" renderDepth="null" >tu</Pic>
+  <Material color="0x494848"  emissive="0x888888" specular="0x747272" shininess="10" Reservedcolor="0x000000"  normalMap=""  emissiveMap="" specularMap=""  ReserveValue="true" skinning="false" Alpha="1" DoubleSide="2" aoMap="" envMap="false" reflectivity="1" refractionRatio="0.1">code_0012</Material>
+
+  <Pic x="0" y="-550" z="800" Rx="-90" Ry="0" Rz="0" DW="6000" DH="6000" DD="3500" iw="1" ih="1"  img="mode/jixie/jidi.jpg" codenum="code_0009" renderDepth="null" >FLoor_1</Pic>
+  <Pic x="0" y="1180" z="800" Rx="-90" Ry="0" Rz="0" DW="6000" DH="6000" DD="3500" iw="1" ih="1"  img="mode/jixie/jiqiang.jpg" codenum="code_0001" renderDepth="null" >FLoor_2</Pic>
+  <Material color="0x676767"  emissive="0x676767" specular="0x676767" shininess="10" Reservedcolor="0x000000"  normalMap=""  emissiveMap="" specularMap=""  ReserveValue="true" skinning="false" Alpha="1" DoubleSide="2" aoMap="" envMap="false" reflectivity="0.1" refractionRatio="0.98">code_0009</Material>
+  <Material color="0xb9b6b6"  emissive="0x7d7b7b" specular="0x393939" shininess="10" Reservedcolor="0x000000"  normalMap=""  emissiveMap="" specularMap=""  ReserveValue="true" skinning="false" Alpha="1" DoubleSide="2" aoMap="" envMap="false" reflectivity="0.1" refractionRatio="0.98">code_0010</Material>
+
+  	<Pic x="0" y="1200" z="-0" Rx="-90" Ry="0" Rz="180" DW="3500" DH="3500" DD="3500" iw="1" ih="1" img="mode/pengding.jpg" codenum="code_0001" renderDepth="1024" >FLoor_2</Pic>
+
+  <Pic x="3000" y="268" z="800" Rx="-90" Ry="-90" Rz="0" DW="2000" DH="6000" DD="6000" iw="1" ih="10" img="mode/jixie/jiqiang.jpg" codenum="code_0008" renderDepth="null" >FLoor_3</Pic>
+  <Pic x="-3000" y="268" z="800" Rx="90" Ry="-90" Rz="180" DW="2000" DH="6000" DD="6000" iw="1" ih="10" img="mode/jixie/jiqiang.jpg" codenum="code_0008" renderDepth="null" >FLoor_4</Pic>
+  <Pic x="0" y="268" z="3800" Rx="-0" Ry="0" Rz="90" DW="2000" DH="6000" DD="6000" iw="1" ih="10" img="mode/jixie/jiqiang.jpg" codenum="code_0008" renderDepth="null" >FLoor_5</Pic>
+  <Pic x="0" y="268" z="-2200" Rx="0" Ry="0" Rz="90" DW="2000" DH="6000" DD="6000" iw="1" ih="10" img="mode/jixie/jiqiang.jpg" codenum="code_0008" renderDepth="null" >FLoor_6</Pic>
+  <Wall x="1000" y="268" z="-2150" Rx="0" Ry="0" Rz="0" DW="200" DH="2000" DD="100" img="mode/jixie/jidi.jpg"  iw="1" ih="1" codenum="code_0001" renderDepth="5" >Wall_1</Wall>
+  <Wall x="-1000" y="268" z="-2150" Rx="0" Ry="0" Rz="0" DW="200" DH="2000" DD="100" img="mode/jixie/jidi.jpg"  iw="1" ih="1" codenum="code_0001" renderDepth="5" >Wall_2</Wall>
+  <Wall x="1000" y="268" z="3650" Rx="0" Ry="0" Rz="0" DW="200" DH="2000" DD="100" img="mode/jixie/jidi.jpg"  iw="1" ih="1" codenum="code_0001" renderDepth="5" >Wall_3</Wall>
+  <Wall x="-1000" y="268" z="3650" Rx="0" Ry="0" Rz="0" DW="200" DH="2000" DD="100" img="mode/jixie/jidi.jpg"  iw="1" ih="1" codenum="code_0001" renderDepth="5" >Wall_4</Wall>
+  <Light x="0" y="0" z="200" color="0xa2a2a2"  type="AmbientLight">Light_1</Light>
+  <!--<Light x="-0" y="500" z="0"  color="0x7886f0"  inten="0.5" type="DirectionLight">Light_2</Light>-->
+  <Light x="0" y="1000" z="1500"  color="0x676767"  inten="1" type="DirectionLight">Light_3</Light>
+  
+  <Material color="0x676767"  emissive="0x959595" specular="0x959595" shininess="10" Reservedcolor="0x000000"  normalMap=""  emissiveMap="" specularMap=""  ReserveValue="true" skinning="false" Alpha="1" DoubleSide="2" aoMap="" envMap="false" reflectivity="0.1" refractionRatio="0.98">code_0001</Material>
+  <Material color="0x23313a"  emissive="0x23313a" specular="0x23313a" shininess="30" Reservedcolor="0x000000"  normalMap=""  emissiveMap="" specularMap=""  ReserveValue="true" skinning="false" Alpha="1" DoubleSide="2" aoMap="" envMap="false" reflectivity="1" refractionRatio="0.98">code_0002</Material>
+  <Material color="0x235108"  emissive="0x235108" specular="0x235108" shininess="90" Reservedcolor="0x000000"  normalMap=""  emissiveMap="" specularMap=""  ReserveValue="true" skinning="false" Alpha="1" DoubleSide="2" aoMap="" envMap="false" reflectivity="0.3" refractionRatio="0.98">code_0003</Material>
+  <Material color="0xfa2805"  emissive="0xfa2805" specular="0xfa2805" shininess="30" Reservedcolor="0x000000"  normalMap=""  emissiveMap="" specularMap=""  ReserveValue="true" skinning="false" Alpha="1" DoubleSide="2" aoMap="" envMap="false" reflectivity="0.3" refractionRatio="0.98">code_0004</Material>
+  <Material color="0xc1ae44"  emissive="0xc1ae44" specular="0xc1ae44" shininess="30" Reservedcolor="0x000000"  normalMap=""  emissiveMap="" specularMap=""  ReserveValue="true" skinning="false" Alpha="1" DoubleSide="2" aoMap="" envMap="false" reflectivity="1" refractionRatio="0.98">code_0005</Material>
+  <Material color="0x40423f"  emissive="0x40423f" specular="0x40423f" shininess="30" Reservedcolor="0x000000"  normalMap=""  emissiveMap="" specularMap=""  ReserveValue="true" skinning="false" Alpha="1" DoubleSide="2" aoMap="" envMap="false" reflectivity="1" refractionRatio="0.98">code_0006</Material>
+  <Material color="0x553c07"  emissive="0x553c07" specular="0x553c07" shininess="30" Reservedcolor="0x000000"  normalMap=""  emissiveMap="" specularMap=""  ReserveValue="true" skinning="false" Alpha="1" DoubleSide="2" aoMap="" envMap="false" reflectivity="1" refractionRatio="0.98">code_0007</Material>
+  <Material color="0x999797"  emissive="0x666666" specular="0x666666" shininess="30" Reservedcolor="0x000000"  normalMap=""  emissiveMap="" specularMap=""  ReserveValue="true" skinning="false" Alpha="1" DoubleSide="2" aoMap="" envMap="false" reflectivity="1" refractionRatio="0.98">code_0008</Material>
+  <Mode x="0.00" y="-1540.34" z="-1937" Rx="0.00" Ry="0.00" Rz="0.00" SW="2" SH="1.5" SD="1" mm="0" hw="0" fire="0" weight="0" Ltype="1" img="" url="mode/jixie/窗户.zlf" codenum="code_0001" renderDepth="" castShadow="false" Reflective="false" ReflectiveAlpha="0.1">Import_窗户.zlf</Mode>
+  <Material color="0x7099fc" Reservedcolor="0x000000" emissive="0x000000" specular="0x111111" shininess="30" ReserveValue="true" skinning="false" Alpha="0.40405862457722663" DoubleSide="2" aoMap="" envMap="true" reflectivity="1" refractionRatio="0.98" normalMap="" emissiveMap="" specularMap="">code_113</Material>
+  <ModeChild Root="Import_窗户.zlf" img="" iw="1" ih="1" codenum="code_113">boli</ModeChild>
+  <Material color="0x757575" Reservedcolor="0x615f5f" emissive="0x888888" specular="0x111111" shininess="30" ReserveValue="true" skinning="false" Alpha="1" DoubleSide="2" aoMap="" envMap="false" reflectivity="1" refractionRatio="0.98" normalMap="" emissiveMap="" specularMap="">code_114</Material>
+  <ModeChild Root="Import_窗户.zlf" img="mode/jixie/jiqiang.jpg" iw="1" ih="1" codenum="code_114">chuangkuang</ModeChild>
+
+  <Material color="0xd94343" Reservedcolor="0x000000" emissive="0x000000" specular="0x111111" shininess="30" ReserveValue="true" skinning="false" Alpha="1" DoubleSide="2" aoMap="" envMap="false" reflectivity="1" refractionRatio="0.98" normalMap="" emissiveMap="" specularMap="">code_121</Material>
+  <Mode x="2000.00" y="-550" z="-1937" Rx="0.00" Ry="0.00" Rz="0.00" SW="8" SH="8" SD="8" mm="0" hw="0" fire="0" weight="0" Ltype="1" img="" url="mode/jixie/消防箱.zlf" codenum="code_121" renderDepth="" castShadow="false" Reflective="false" ReflectiveAlpha="0.1">Import_xfx.zlf</Mode>
+  <Material color="0xd92525" Reservedcolor="0x000000" emissive="0x000000" specular="0x111111" shininess="30" ReserveValue="true" skinning="false" Alpha="1" DoubleSide="2" aoMap="" envMap="false" reflectivity="1" refractionRatio="0.98" normalMap="" emissiveMap="" specularMap="">code_122</Material>
+  <ModeChild Root="Import_xfx.zlf" img="" iw="1" ih="1" codenum="code_122">Obj3d66_446964_20_746</ModeChild>
+  <Material color="0xdedede" Reservedcolor="0x000000" emissive="0x000000" specular="0x111111" shininess="30" ReserveValue="true" skinning="false" Alpha="1" DoubleSide="2" aoMap="" envMap="false" reflectivity="1" refractionRatio="0.98" normalMap="" emissiveMap="" specularMap="">code_123</Material>
+  <ModeChild Root="Import_xfx.zlf" img="" iw="1" ih="1" codenum="code_123">Text001</ModeChild>
+
+
+  <Material color="0xc56d6d" Reservedcolor="0x000000" emissive="0x444444" specular="0x111111" shininess="30" ReserveValue="true" skinning="false" Alpha="1" DoubleSide="2" aoMap="" envMap="false" reflectivity="1" refractionRatio="0.98" normalMap="" emissiveMap="" specularMap="">code_115</Material>
+  <Mode x="-2900" y="-0" z="0.00" Rx="0.00" Ry="90.00" Rz="0.00" SW="2" SH="2" SD="1" mm="0" hw="0" fire="0" weight="0" Ltype="1" img="" url="mode/jixie/门.zlf" codenum="code_115" renderDepth="" castShadow="false" Reflective="false" ReflectiveAlpha="0.1">Import_men.zlf</Mode>
+  <Material color="0x5f5f5f" Reservedcolor="0x000000" emissive="0x9f9e9e" specular="0x111111" shininess="30" ReserveValue="true" skinning="false" Alpha="1" DoubleSide="2" aoMap="" envMap="false" reflectivity="1" refractionRatio="0.98" normalMap="" emissiveMap="" specularMap="">code_116</Material>
+  <ModeChild Root="Import_men.zlf" img="" iw="1" ih="1" codenum="code_116">dingbumenban</ModeChild>
+  <Material color="0x3c3c3c" Reservedcolor="0x000000" emissive="0x767575" specular="0xb4b0b0" shininess="30" ReserveValue="true" skinning="false" Alpha="1" DoubleSide="2" aoMap="" envMap="false" reflectivity="1" refractionRatio="0.98" normalMap="" emissiveMap="" specularMap="">code_117</Material>
+  <ModeChild Root="Import_men.zlf" img="" iw="1" ih="1" codenum="code_117">dingbuhuawen</ModeChild>
+  <Material color="0x2f2f2f" Reservedcolor="0x000000" emissive="0x828181" specular="0x111111" shininess="30" ReserveValue="true" skinning="false" Alpha="1" DoubleSide="2" aoMap="" envMap="false" reflectivity="1" refractionRatio="0.98" normalMap="" emissiveMap="" specularMap="">code_118</Material>
+  <ModeChild Root="Import_men.zlf" img="mode/jixie/滚筒贴图.jpg" iw="1" ih="1" codenum="code_118">menban</ModeChild>
+  <Material color="0x727272" Reservedcolor="0x000000" emissive="0x000000" specular="0x111111" shininess="30" ReserveValue="true" skinning="false" Alpha="1" DoubleSide="2" aoMap="" envMap="false" reflectivity="1" refractionRatio="0.98" normalMap="" emissiveMap="" specularMap="">code_119</Material>
+  <ModeChild Root="Import_men.zlf" img="" iw="1" ih="1" codenum="code_119">bashou</ModeChild>
+
+
+
+  <Psarticle  x="-800" y="220" z="1395" Rx="0" Ry="180" Rz="180" velx="0" vely="25" velz="0" tpx="30" tpy="0" tpz="20" img="mode/1-4.png" size="90" count="3" dpx="30" dpy="370" dpz="20" color="0x020022" transparent="true" Alpha="1" ptype="96">Psarticle_0</Psarticle>
+
+  <Psarticle   x="-800" y="-250" z="1400" Rx="-78" Ry="0" Rz="0" velx="0" vely="15" velz="0" tpx="300" tpy="30" tpz="20" img="mode/1-4.png" size="90" count="5" dpx="300" dpy="1100" dpz="20" color="0x020022" transparent="true" Alpha="1" ptype="96">Psarticle_11</Psarticle>
+  <Psarticle x="-790" y="-145" z="0" Rx="90" Ry="0" Rz="0" velx="0" vely="12" velz="0" tpx="30" tpy="100" tpz="25" img="mode/1-6.png" size="60" count="2" dpx="30" dpy="420" dpz="25" color="0x2419ff" transparent="true" Alpha="0" ptype="96">Psarticle_20</Psarticle>
+  <Psarticle x="-850" y="-220" z="550" Rx="-0" Ry="0" Rz="102" velx="0" vely="12" velz="0" tpx="30" tpy="10" tpz="30" img="mode/1-6.png" size="60" count="5" dpx="30" dpy="620" dpz="30" color="0x2419ff" transparent="true" Alpha="1" ptype="96">Psarticle_30</Psarticle>
+  <Psarticle x="-700" y="-100" z="-20" Rx="0" Ry="0" Rz="263" velx="0" vely="15" velz="0" tpx="30" tpy="10" tpz="30" img="mode/1-5.png" size="60" count="5" dpx="40" dpy="500" dpz="30" color="0x050060" transparent="true" Alpha="1" ptype="96">Psarticle_40</Psarticle>
+  <Psarticle x="10" y="-240" z="-15" Rx="-0" Ry="0" Rz="-135" velx="0" vely="12" velz="0" tpx="30" tpy="10" tpz="30" img="mode/1-4.png" size="45" count="2" dpx="30" dpy="160" dpz="30" color="0x050060" transparent="true" Alpha="1" ptype="96">Psarticle_50</Psarticle>
+  <Psarticle x="-20" y="-240" z="-15" Rx="-0" Ry="0" Rz="135" velx="0" vely="12" velz="0" tpx="30" tpy="10" tpz="30" img="mode/1-4.png" size="45" count="2" dpx="30" dpy="160" dpz="30" color="0x2419ff" transparent="true" Alpha="1" ptype="96">Psarticle_60</Psarticle>
+  <Psarticle x="-140" y="-395" z="-20" Rx="-0" Ry="0" Rz="90" velx="0" vely="12" velz="0" tpx="30" tpy="10" tpz="30" img="mode/1-6.png" size="45" count="3" dpx="30" dpy="430" dpz="30" color="0x2419ff" transparent="true" Alpha="1" ptype="96">Psarticle_70</Psarticle>
+  <Psarticle x="-620" y="-380" z="-20" Rx="-0" Ry="0" Rz="160" velx="0" vely="9" velz="0" tpx="30" tpy="60" tpz="30" img="mode/1-4.png" size="45" count="2" dpx="30" dpy="180" dpz="30" color="0x2419ff" transparent="true" Alpha="1" ptype="96">Psarticle_80</Psarticle>
+  <Psarticle x="150" y="-375" z="-20" Rx="-0" Ry="0" Rz="-78" velx="0" vely="22" velz="0" tpx="30" tpy="10" tpz="30" img="mode/1-5.png" size="45" count="4" dpx="30" dpy="600" dpz="30" color="0x050060" transparent="true" Alpha="1" ptype="96">Psarticle_90</Psarticle>
+  <Psarticle x="840" y="-220" z="-10" Rx="15" Ry="0" Rz="0" velx="0" vely="15" velz="0" tpx="20" tpy="40" tpz="30" img="mode/1-7.png" size="30" count="3" dpx="40" dpy="150" dpz="30" color="0x2419ff" transparent="true" Alpha="1" ptype="96">Psarticle_100</Psarticle>
+  <Psarticle x="870" y="-120" z="10" Rx="75" Ry="0" Rz="0" velx="0" vely="15" velz="0" tpx="30" tpy="50" tpz="30" img="mode/1-4.png" size="30" count="4" dpx="30" dpy="500" dpz="30" color="0x2419ff" transparent="true" Alpha="1" ptype="96">Psarticle_110</Psarticle>
+  <Psarticle x="830" y="60" z="610" Rx="-0" Ry="180" Rz="180" velx="0" vely="12" velz="0" tpx="30" tpy="30" tpz="30" img="mode/1-4.png" size="20" count="2" dpx="30" dpy="150" dpz="30" color="0x2419ff" transparent="true" Alpha="1" ptype="96">Psarticle_120</Psarticle>
+  <Psarticle x="840" y="-380" z="-20" Rx="5" Ry="0" Rz="0" velx="0" vely="9" velz="0" tpx="30" tpy="30" tpz="30" img="mode/1-7.png" size="30" count="2" dpx="30" dpy="150" dpz="30" color="0x2419ff" transparent="true" Alpha="1" ptype="97">Psarticle_130</Psarticle>
+  <Psarticle x="900" y="-365" z="20" Rx="-0" Ry="0" Rz="-98" velx="0" vely="9" velz="0" tpx="30" tpy="30" tpz="30" img="mode/1-5.png" size="30" count="3" dpx="30" dpy="360" dpz="30" color="0x050060" transparent="true" Alpha="1" ptype="96">Psarticle_26</Psarticle>
+
+
+  <Mode x="850" y="-423" z="850" Rx="0" Ry="90" Rz="0" SW="0.06" SH="0.06" SD="0.06" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/jixie/除尘装置.jpg" url="mode/jixie/除尘装置.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t1</Mode>
+
+  <Mode x="850" y="-250" z="630" Rx="0" Ry="90" Rz="0" SW="0.12" SH="0.12" SD="0.12" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/jixie/粉碎机.jpg" url="mode/jixie/粉碎机.zlf" codenum="code_0001" renderDepth="2" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t2</Mode>
+
+  <Mode x="850" y="40" z="200" Rx="0" Ry="-100" Rz="15" SW="0.11" SH="0.11" SD="0.11" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/jixie/吸气.jpg" url="mode/jixie/吸气.zlf" codenum="code_0001" renderDepth="3" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t10</Mode>
+
+  <Mode x="850" y="-455" z="50" Rx="0" Ry="90" Rz="0" SW="0.4" SH="0.4" SD="0.4" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/jixie/风机.jpg" url="mode/jixie/风机.zlf" codenum="code_0003" renderDepth="4" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">tWind</Mode>
+
+  <Mode x="0" y="-350" z="0" Rx="0" Ry="90" Rz="0" SW="0.13" SH="0.13" SD="0.13" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/滚筒.zlf" codenum="code_0004" renderDepth="5" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t_Roller</Mode>
+
+  <Animation x="0" y="-350" z="0" Rx="0.00" Ry="90.00" Rz="0.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="0.1" Row="2" Col="1">t_Roller</Animation>
+  <Animation x="0" y="-350" z="0" Rx="179.00" Ry="90.00" Rz="0.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="3" Row="2" Col="30">t_Roller</Animation>
+  <Animation x="0" y="-350" z="0" Rx="180.00" Ry="90.00" Rz="0.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="3.1" Row="2" Col="31">t_Roller</Animation>
+  <Animation x="0" y="-350" z="0" Rx="360.00" Ry="90.00" Rz="0.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="6" Row="2" Col="60">t_Roller</Animation>
+
+
+  <Mode x="70" y="-500" z="-135" Rx="90" Ry="90" Rz="0" SW="0.2" SH="0.15" SD="0.15" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0007" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h1</Mode>
+  <Mode x="70" y="-500" z="135" Rx="90" Ry="90" Rz="0" SW="0.2" SH="0.15" SD="0.15" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0007" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h2</Mode>
+  <Mode x="-70" y="-500" z="-135" Rx="90" Ry="90" Rz="0" SW="0.2" SH="0.15" SD="0.15" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0007" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h3</Mode>
+  <Mode x="-70" y="-500" z="135" Rx="90" Ry="90" Rz="0" SW="0.2" SH="0.15" SD="0.15" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0007" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h4</Mode>
+  <Mode x="-0" y="-350" z="135" Rx="0" Ry="0" Rz="0" SW="0.1" SH="0.15" SD="0.15" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0007" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h5</Mode>
+  <Mode x="-0" y="-350" z="-135" Rx="0" Ry="0" Rz="0" SW="0.1" SH="0.15" SD="0.15" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0007" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h6</Mode>
+
+
+  <Mode x="-800" y="-25" z="150" Rx="0" Ry="90" Rz="0" SW="0.15" SH="0.15" SD="0.15" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/jixie/滚筛.jpg" url="mode/jixie/滚筛.zlf" codenum="code_0001" renderDepth="6" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t_Rollplug</Mode>
+  
+  <Animation x="-800" y="-25" z="150" Rx="0.00" Ry="90.00" Rz="0.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="0.1" Row="1" Col="1">t_Rollplug</Animation>
+  <Animation x="-800" y="-25" z="150" Rx="179.00" Ry="90.00" Rz="0.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="3" Row="1" Col="30">t_Rollplug</Animation>
+  <Animation x="-800" y="-25" z="150" Rx="180.00" Ry="90.00" Rz="0.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="3.1" Row="1" Col="31">t_Rollplug</Animation>
+  <Animation x="-800" y="-25" z="150" Rx="360.00" Ry="90.00" Rz="0.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="6" Row="1" Col="60">t_Rollplug</Animation>
+
+ 
+  <Mode x="-880" y="-501" z="260" Rx="90" Ry="90" Rz="0" SW="0.7" SH="0.15" SD="0.15" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0007" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h7</Mode>
+  <Mode x="-720" y="-501" z="260" Rx="90" Ry="90" Rz="0" SW="0.7" SH="0.15" SD="0.15" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0007" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h8</Mode>
+
+  <Mode x="-880" y="20" z="150" Rx="0" Ry="90" Rz="0" SW="0.15" SH="0.15" SD="0.15" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0007" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h9</Mode>
+  <Mode x="-720" y="20" z="150" Rx="0" Ry="90" Rz="0" SW="0.15" SH="0.15" SD="0.15" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0007" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h10</Mode>
+  <Mode x="-880" y="-501" z="40" Rx="90" Ry="90" Rz="0" SW="0.7" SH="0.15" SD="0.15" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0007" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h11</Mode>
+  <Mode x="-720" y="-501" z="40" Rx="90" Ry="90" Rz="0" SW="0.7" SH="0.15" SD="0.15" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0007" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h12</Mode>
+  <Mode x="-800" y="-180" z="1400" Rx="0" Ry="180" Rz="0" SW="0.02" SH="0.02" SD="0.02" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/jixie/进料斗.jpg" url="mode/jixie/进料斗.zlf" codenum="code_0001" renderDepth="7" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t6</Mode>
+
+  <Mode x="-692" y="-430" z="1440" Rx="90" Ry="90" Rz="0" SW="0.3" SH="0.15" SD="0.15" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0007" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h13</Mode>
+  <Mode x="-692" y="-430" z="1360" Rx="90" Ry="90" Rz="0" SW="0.3" SH="0.15" SD="0.15" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0007" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h14</Mode>
+
+  <Mode x="-800" y="-202" z="1440" Rx="0" Ry="0" Rz="0" SW="0.155" SH="0.15" SD="0.15" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0007" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h15</Mode>
+  <Mode x="-800" y="-202" z="1360" Rx="0" Ry="0" Rz="0" SW="0.155" SH="0.15" SD="0.15" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0007" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h16</Mode>
+  <Mode x="-908" y="-430" z="1440" Rx="90" Ry="90" Rz="0" SW="0.3" SH="0.15" SD="0.15" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0007" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h17</Mode>
+  <Mode x="-908" y="-430" z="1360" Rx="90" Ry="90" Rz="0" SW="0.3" SH="0.15" SD="0.15" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0007" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h18</Mode>
+
+  <Mode x="850" y="-490" z="630" Rx="0" Ry="90" Rz="0" SW="0.7" SH="0.7" SD="0.7" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/座.zlf" codenum="code_0006" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t755</Mode>
+
+
+
+  <Mode x="-1500" y="-500" z="530" Rx="0" Ry="180" Rz="0" SW="0.5" SH="0.5" SD="0.5" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/jixie/桶.jpg" url="mode/jixie/桶.zlf" codenum="code_0001" renderDepth="8" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t9</Mode>
+
+  <Mode x="-660" y="-520" z="0" Rx="0" Ry="180" Rz="0" SW="0.4" SH="0.4" SD="0.4" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/jixie/桶.jpg" url="mode/jixie/桶.zlf" codenum="code_0001" renderDepth="8" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t91</Mode>
+
+  <Mode x="1400" y="-520" z="0" Rx="0" Ry="180" Rz="0" SW="0.4" SH="0.4" SD="0.4" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/jixie/桶.jpg" url="mode/jixie/桶.zlf" codenum="code_0001" renderDepth="8" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t92</Mode>
+  <Mode x="-800" y="320" z="1395" Rx="0" Ry="0" Rz="0" SW="1.5" SH="1.5" SD="1.5" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/实验开始.zlf" codenum="" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">font_0</Mode>
+  <Mode x="-800" y="175" z="150" Rx="0" Ry="0" Rz="0" SW="1.5" SH="1.5" SD="1.5" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/滚筛文字.zlf" codenum="" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">font_1</Mode>
+  <Mode x="0" y="-150" z="-0" Rx="0" Ry="0" Rz="0" SW="1.5" SH="1.5" SD="1.5" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/滚筒文字.zlf" codenum="" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">font_2</Mode>
+  <Mode x="850" y="-205" z="0" Rx="0" Ry="0" Rz="0" SW="1.5" SH="1.5" SD="1.5" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/风机文字.zlf" codenum="" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">font_3</Mode>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <Mode x="850" y="110" z="200" Rx="90" Ry="90" Rz="0" SW="0.065" SH="0.3" SD="0.3" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">c1</Mode>
+  <Mode x="850" y="200" z="600" Rx="0" Ry="90" Rz="0" SW="0.5" SH="0.3" SD="0.3" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">c2</Mode>
+  <Mode x="850" y="-80" z="1021" Rx="90" Ry="90" Rz="0" SW="0.35" SH="0.3" SD="0.3" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">c3</Mode>
+  <Mode x="850" y="-371" z="920" Rx="0" Ry="90" Rz="0" SW="0.08" SH="0.3" SD="0.3" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">c4</Mode>
+  <Mode x="850" y="-340" z="850" Rx="90" Ry="90" Rz="0" SW="0.13" SH="0.3" SD="0.3" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">c5</Mode>
+  <Mode x="850" y="-219" z="720" Rx="0" Ry="90" Rz="0" SW="0.15" SH="0.3" SD="0.3" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">c6</Mode>
+  <Mode x="900" y="-219" z="630" Rx="0" Ry="0" Rz="0" SW="0.15" SH="0.3" SD="0.3" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">c7</Mode>
+  <Mode x="1061" y="-340" z="630" Rx="90" Ry="90" Rz="0" SW="0.1" SH="0.3" SD="0.3" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">c8</Mode>
+  <Mode x="1061" y="-461" z="333" Rx="0" Ry="90" Rz="0" SW="0.33" SH="0.3" SD="0.3" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">c9</Mode>
+  <Mode x="950" y="-461" z="50" Rx="0" Ry="0" Rz="0" SW="0.1" SH="0.3" SD="0.3" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">c10</Mode>
+  <Mode x="900" y="-500" z="630" Rx="0" Ry="0" Rz="0" SW="0.1" SH="0.3" SD="0.3" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0006" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">c11</Mode>
+
+
+
+
+  <Mode x="850" y="179" z="221" Rx="0" Ry="0" Rz="90" SW="0.3" SH="0.3" SD="0.3" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/接头.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">g1</Mode>
+  <Mode x="850" y="179" z="1000" Rx="90" Ry="0" Rz="90" SW="0.3" SH="0.3" SD="0.3" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/接头.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">g2</Mode>
+  <Mode x="850" y="-350" z="1000" Rx="180" Ry="0" Rz="90" SW="0.3" SH="0.3" SD="0.3" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/接头.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">g3</Mode>
+  <Mode x="850" y="-240" z="829" Rx="90" Ry="0" Rz="90" SW="0.3" SH="0.3" SD="0.3" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/接头.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">g4</Mode>
+  <Mode x="1040" y="-240" z="630" Rx="90" Ry="0" Rz="0" SW="0.3" SH="0.3" SD="0.3" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/接头.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">g5</Mode>
+  <Mode x="1061" y="-440" z="609" Rx="0" Ry="180" Rz="-90" SW="0.3" SH="0.3" SD="0.3" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/接头.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">g6</Mode>
+  <Mode x="1041" y="-461" z="70" Rx="0" Ry="0" Rz="0" SW="0.3" SH="0.3" SD="0.3" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/接头.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">g7</Mode>
+
+
+
+
+  <Mode x="-800" y="-200" z="1000" Rx="0" Ry="-90" Rz="-12" SW="0.7" SH="0.15" SD="0.15" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/jixie/履带.jpg" url="mode/jixie/履带.zlf" codenum="code_0010" renderDepth="3" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t12</Mode>
+  <Mode x="-800" y="-354" z="1720" Rx="0" Ry="90" Rz="0" SW="0.12" SH="0.12" SD="0.15" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/jixie/履带轮.jpg" url="mode/jixie/履带轮.zlf" codenum="code_0010" renderDepth="3" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t121</Mode>
+  <Animation x="-800" y="-354" z="1720" Rx="0.00" Ry="90.00" Rz="0.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="0.1" Row="3" Col="1">t121</Animation>
+  <Animation x="-800" y="-354" z="1720" Rx="0" Ry="90.00" Rz="-179.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="3" Row="3" Col="30">t121</Animation>
+  <Animation x="-800" y="-354" z="1720" Rx="0" Ry="90.00" Rz="-180.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="3.1" Row="3" Col="31">t121</Animation>
+  <Animation x="-800" y="-354" z="1720" Rx="0" Ry="90.00" Rz="-360.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="6" Row="3" Col="60">t121</Animation>
+
+  <Mode x="-800" y="-47" z="280" Rx="0" Ry="90" Rz="0" SW="0.12" SH="0.12" SD="0.15" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/jixie/履带轮.jpg" url="mode/jixie/履带轮.zlf" codenum="code_0010" renderDepth="3" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t122</Mode>
+
+  <Animation x="-800" y="-47" z="280" Rx="0.00" Ry="90.00" Rz="0.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="0.1" Row="4" Col="1">t122</Animation>
+  <Animation x="-800" y="-47" z="280" Rx="0" Ry="90.00" Rz="-179.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="3" Row="4" Col="30">t122</Animation>
+  <Animation x="-800" y="-47" z="280" Rx="0" Ry="90.00" Rz="-180.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="3.1" Row="4" Col="31">t122</Animation>
+  <Animation x="-800" y="-47" z="280" Rx="0" Ry="90.00" Rz="-360.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="6" Row="4" Col="60">t122</Animation>
+  
+  <Mode x="-840" y="-460" z="1600" Rx="90" Ry="90" Rz="0" SW="0.2" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h19</Mode>
+  <Mode x="-760" y="-460" z="1600" Rx="90" Ry="90" Rz="0" SW="0.2" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h20</Mode>
+  <Mode x="-840" y="-460" z="1200" Rx="90" Ry="90" Rz="0" SW="0.3" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h21</Mode>
+  <Mode x="-760" y="-460" z="1200" Rx="90" Ry="90" Rz="0" SW="0.3" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h22</Mode>
+  <Mode x="-840" y="-390" z="800" Rx="90" Ry="90" Rz="0" SW="0.3" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h23</Mode>
+  <Mode x="-760" y="-390" z="800" Rx="90" Ry="90" Rz="0" SW="0.3" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h24</Mode>
+  <Mode x="-840" y="-380" z="400" Rx="90" Ry="90" Rz="0" SW="0.4" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h25</Mode>
+  <Mode x="-760" y="-380" z="400" Rx="90" Ry="90" Rz="0" SW="0.4" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h26</Mode>
+  <Mode x="-840" y="-520" z="1000" Rx="0" Ry="90" Rz="0" SW="0.8" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h27</Mode>
+  <Mode x="-760" y="-520" z="1000" Rx="0" Ry="90" Rz="0" SW="0.8" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h28</Mode>
+  <Mode x="-840" y="-240" z="1000" Rx="0" Ry="90" Rz="12" SW="0.82" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h29</Mode>
+  <Mode x="-760" y="-240" z="1000" Rx="0" Ry="90" Rz="12" SW="0.82" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h30</Mode>
+
+
+
+
+
+  <Mode x="-800" y="-185" z="250" Rx="0" Ry="90" Rz="0" SW="0.25" SH="0.15" SD="0.15" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/jixie/履带.jpg" url="mode/jixie/履带.zlf" codenum="code_0010" renderDepth="3" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t7</Mode>
+  <Mode x="-800" y="-185" z="500" Rx="0" Ry="90" Rz="0" SW="0.15" SH="0.15" SD="0.15" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/jixie/履带轮.jpg" url="mode/jixie/履带轮.zlf" codenum="code_0010" renderDepth="3" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t71</Mode>
+
+  <Animation  x="-800" y="-185" z="250" Rx="0.00" Ry="90.00" Rz="0.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="0.1" Row="5" Col="1">t71</Animation>
+  <Animation  x="-800" y="-185" z="250" Rx="0" Ry="90.00" Rz="-179.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="3" Row="5" Col="30">t71</Animation>
+  <Animation  x="-800" y="-185" z="250" Rx="0" Ry="90.00" Rz="-180.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="3.1" Row="5" Col="31">t71</Animation>
+  <Animation  x="-800" y="-185" z="250" Rx="0" Ry="90.00" Rz="-360.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="6" Row="5" Col="60">t71</Animation>
+
+  <Mode x="-800" y="-185" z="-0" Rx="0" Ry="90" Rz="0" SW="0.15" SH="0.15" SD="0.15" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/jixie/履带轮.jpg" url="mode/jixie/履带轮.zlf" codenum="code_0010" renderDepth="3" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t72</Mode>
+  
+  <Animation  x="-800" y="-185" z="0" Rx="0.00" Ry="90.00" Rz="0.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="0.1" Row="6" Col="1">t72</Animation>
+  <Animation  x="-800" y="-185" z="0" Rx="0" Ry="90.00" Rz="-179.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="3" Row="6" Col="30">t72</Animation>
+  <Animation  x="-800" y="-185" z="0" Rx="0" Ry="90.00" Rz="-180.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="3.1" Row="6" Col="31">t72</Animation>
+  <Animation  x="-800" y="-185" z="0" Rx="0" Ry="90.00" Rz="-360.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="6" Row="6" Col="60">t72</Animation>
+  
+  <Mode x="-840" y="-370" z="400" Rx="90" Ry="90" Rz="0" SW="0.25" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h31</Mode>
+  <Mode x="-760" y="-370" z="400" Rx="90" Ry="90" Rz="0" SW="0.25" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h32</Mode>
+  <Mode x="-840" y="-370" z="100" Rx="90" Ry="90" Rz="0" SW="0.25" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h33</Mode>
+  <Mode x="-760" y="-370" z="100" Rx="90" Ry="90" Rz="0" SW="0.25" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h34</Mode>
+  <Mode x="-840" y="-520" z="250" Rx="0" Ry="90" Rz="0" SW="0.2" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h35</Mode>
+  <Mode x="-760" y="-520" z="250" Rx="0" Ry="90" Rz="0" SW="0.2" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h36</Mode>
+  <Mode x="-840" y="-220" z="250" Rx="0" Ry="90" Rz="0" SW="0.2" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h37</Mode>
+  <Mode x="-760" y="-220" z="250" Rx="0" Ry="90" Rz="0" SW="0.2" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h38</Mode>
+
+
+
+
+
+  <Mode x="-500" y="-165" z="0" Rx="0" Ry="180" Rz="7.5" SW="0.35" SH="0.12" SD="0.12" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/jixie/履带.jpg" url="mode/jixie/履带.zlf" codenum="code_0010" renderDepth="3" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t8</Mode>
+  <Mode x="-865" y="-117" z="0" Rx="0" Ry="180" Rz="0" SW="0.1" SH="0.1" SD="0.12" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/jixie/履带轮.jpg" url="mode/jixie/履带轮.zlf" codenum="code_0010" renderDepth="3" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t100011</Mode>
+
+  <Animation  x="-865" y="-117" z="0" Rx="0.00" Ry="180.00" Rz="0.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="0.1" Row="7" Col="1">t100011</Animation>
+  <Animation  x="-865" y="-117" z="0" Rx="0" Ry="180.00" Rz="-179.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="3" Row="7" Col="30">t100011</Animation>
+  <Animation  x="-865" y="-117" z="0" Rx="0" Ry="180.00" Rz="-180.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="3.1" Row="7" Col="31">t100011</Animation>
+  <Animation  x="-865" y="-117" z="0" Rx="0" Ry="180.00" Rz="-360.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="6" Row="7" Col="60">t100011</Animation>
+
+  <Mode x="-135" y="-213" z="0" Rx="0" Ry="180" Rz="0" SW="0.1" SH="0.1" SD="0.12" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/jixie/履带轮.jpg" url="mode/jixie/履带轮.zlf" codenum="code_0010" renderDepth="3" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t100012</Mode>
+
+  <Animation x="-135" y="-213" z="0" Rx="0.00" Ry="180.00" Rz="0.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="0.1" Row="8" Col="1">t100012</Animation>
+  <Animation x="-135" y="-213" z="0" Rx="0" Ry="180.00" Rz="-179.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="3" Row="8" Col="30">t100012</Animation>
+  <Animation x="-135" y="-213" z="0" Rx="0" Ry="180.00" Rz="-180.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="3.1" Row="8" Col="31">t100012</Animation>
+  <Animation x="-135" y="-213" z="0" Rx="0" Ry="180.00" Rz="-360.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="6" Row="8" Col="60">t100012</Animation>
+
+  <Mode x="-730" y="-430" z="-90" Rx="90" Ry="90" Rz="0" SW="0.4" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h39</Mode>
+  <Mode x="-730" y="-430" z="90" Rx="90" Ry="90" Rz="0" SW="0.4" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h40</Mode>
+  <Mode x="-250" y="-390" z="-90" Rx="90" Ry="90" Rz="0" SW="0.26" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h41</Mode>
+  <Mode x="-250" y="-390" z="90" Rx="90" Ry="90" Rz="0" SW="0.26" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h42</Mode>
+  <Mode x="-250" y="-200" z="0" Rx="0" Ry="90" Rz="0" SW="0.12" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h43</Mode>
+  <Mode x="-730" y="-135" z="0" Rx="0" Ry="90" Rz="0" SW="0.12" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h44</Mode>
+
+
+  <Mode x="-350" y="-420" z="0" Rx="0" Ry="180" Rz="0" SW="0.25" SH="0.1" SD="0.1" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/jixie/履带.jpg" url="mode/jixie/履带.zlf" codenum="code_0010" renderDepth="3" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t11</Mode>
+  <Mode x="-610" y="-420" z="0" Rx="0" Ry="180" Rz="0" SW="0.1" SH="0.1" SD="0.1" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/jixie/履带轮.jpg" url="mode/jixie/履带轮.zlf" codenum="code_0010" renderDepth="3" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t111</Mode>
+
+
+  <Animation x="-610" y="-420" z="0" Rx="0.00" Ry="180.00" Rz="0.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="0.1" Row="9" Col="1">t111</Animation>
+  <Animation x="-610" y="-420" z="0" Rx="0.00" Ry="180.00" Rz="-179.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="3" Row="9" Col="30">t111</Animation>
+  <Animation x="-610" y="-420" z="0" Rx="0.00" Ry="180.00" Rz="-180.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="3.1" Row="9" Col="31">t111</Animation>
+  <Animation x="-610" y="-420" z="0" Rx="0.00" Ry="180.00" Rz="-360.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="6" Row="9" Col="60">t111</Animation>
+
+
+  <Mode x="-90" y="-420" z="0" Rx="0" Ry="180" Rz="0" SW="0.1" SH="0.1" SD="0.1" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/jixie/履带轮.jpg" url="mode/jixie/履带轮.zlf" codenum="code_0010" renderDepth="3" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t112</Mode>
+
+  <Animation x="-90" y="-420" z="0" Rx="0.00" Ry="180.00" Rz="0.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="0.1" Row="10" Col="1">t112</Animation>
+  <Animation x="-90" y="-420" z="0" Rx="0.00" Ry="180.00" Rz="-179.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="3" Row="10" Col="30">t112</Animation>
+  <Animation x="-90" y="-420" z="0" Rx="0.00" Ry="180.00" Rz="-180.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="3.1" Row="10" Col="31">t112</Animation>
+  <Animation x="-90" y="-420" z="0" Rx="0.00" Ry="180.00" Rz="-360.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="6" Row="10" Col="60">t112</Animation>
+
+  <Mode x="-500" y="-570" z="-30" Rx="90" Ry="90" Rz="0" SW="0.2" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h45</Mode>
+  <Mode x="-500" y="-570" z="30" Rx="90" Ry="90" Rz="0" SW="0.2" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h46</Mode>
+  <Mode x="-210" y="-570" z="-30" Rx="90" Ry="90" Rz="0" SW="0.2" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h47</Mode>
+  <Mode x="-210" y="-570" z="30" Rx="90" Ry="90" Rz="0" SW="0.2" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h48</Mode>
+  <Mode x="-355" y="-520" z="-30" Rx="0" Ry="0" Rz="0" SW="0.2" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h49</Mode>
+  <Mode x="-355" y="-520" z="30" Rx="0" Ry="0" Rz="0" SW="0.2" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h50</Mode>
+
+
+
+  <Mode x="415" y="-350" z="0" Rx="0" Ry="180" Rz="-12" SW="0.38" SH="0.12" SD="0.12" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/jixie/履带.jpg" url="mode/jixie/履带.zlf" codenum="code_0010" renderDepth="3" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t13</Mode>
+  <Mode x="810" y="-265" z="0" Rx="0" Ry="180" Rz="0" SW="0.08" SH="0.08" SD="0.12" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/jixie/履带轮.jpg" url="mode/jixie/履带轮.zlf" codenum="code_0010" renderDepth="3" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t131</Mode>
+
+  <Animation  x="810" y="-265" z="0" Rx="0.00" Ry="180.00" Rz="0.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="0.1" Row="11" Col="1">t131</Animation>
+  <Animation  x="810" y="-265" z="0" Rx="0.00" Ry="180.00" Rz="-179.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="3" Row="11" Col="30">t131</Animation>
+  <Animation  x="810" y="-265" z="0" Rx="0.00" Ry="180.00" Rz="-180.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="3.1" Row="11" Col="31">t131</Animation>
+  <Animation x="810" y="-265" z="0" Rx="0.00" Ry="180.00" Rz="-360.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="6" Row="11" Col="60">t131</Animation>
+
+  <Mode x="25" y="-435" z="0" Rx="0" Ry="180" Rz="0" SW="0.08" SH="0.08" SD="0.12" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/jixie/履带轮.jpg" url="mode/jixie/履带轮.zlf" codenum="code_0010" renderDepth="3" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t132</Mode>
+
+  <Animation  x="25" y="-435" z="0" Rx="0.00" Ry="180.00" Rz="0.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="0.1" Row="12" Col="1">t132</Animation>
+  <Animation   x="25" y="-435" z="0" Rx="0.00" Ry="180.00" Rz="-179.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="3" Row="12" Col="30">t132</Animation>
+  <Animation   x="25" y="-435" z="0" Rx="0.00" Ry="180.00" Rz="-180.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="3.1" Row="12" Col="31">t132</Animation>
+  <Animation  x="25" y="-435" z="0" Rx="0.00" Ry="180.00" Rz="-360.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="6" Row="12" Col="60">t132</Animation>
+  
+  <Mode x="150" y="-550" z="-30" Rx="90" Ry="90" Rz="0" SW="0.2" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h51</Mode>
+  <Mode x="150" y="-550" z="30" Rx="90" Ry="90" Rz="0" SW="0.2" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h52</Mode>
+  <Mode x="650" y="-440" z="-30" Rx="90" Ry="90" Rz="0" SW="0.2" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h53</Mode>
+  <Mode x="650" y="-440" z="30" Rx="90" Ry="90" Rz="0" SW="0.2" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h54</Mode>
+  <Mode x="400" y="-440" z="-30" Rx="90" Ry="90" Rz="0" SW="0.12" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h55</Mode>
+  <Mode x="400" y="-440" z="30" Rx="90" Ry="90" Rz="0" SW="0.12" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h56</Mode>
+  <Mode x="400" y="-390" z="-30" Rx="0" Ry="0" Rz="12" SW="0.34" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h57</Mode>
+  <Mode x="400" y="-390" z="30" Rx="0" Ry="0" Rz="12" SW="0.34" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h58</Mode>
+  <Mode x="400" y="-520" z="-30" Rx="0" Ry="0" Rz="0" SW="0.33" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h59</Mode>
+  <Mode x="400" y="-520" z="30" Rx="0" Ry="0" Rz="0" SW="0.33" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h60</Mode>
+
+
+
+
+
+
+  <Mode x="850" y="-70" z="300" Rx="0" Ry="90" Rz="-15" SW="0.25" SH="0.15" SD="0.15" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/jixie/履带.jpg" url="mode/jixie/履带.zlf" codenum="code_0010" renderDepth="3" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t14</Mode>
+  <Mode x="850" y="-138" z="50" Rx="0" Ry="90" Rz="0" SW="0.14" SH="0.14" SD="0.15" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/jixie/履带轮.jpg" url="mode/jixie/履带轮.zlf" codenum="code_0010" renderDepth="3" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t141</Mode>
+
+  <Animation x="850" y="-138" z="50" Rx="0.00" Ry="90.00" Rz="0.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="0.1" Row="13" Col="1">t141</Animation>
+  <Animation   x="850" y="-138" z="50" Rx="0.00" Ry="90.00" Rz="-179.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="3" Row="13" Col="30">t141</Animation>
+  <Animation x="850" y="-138" z="50" Rx="0.00" Ry="90.00" Rz="-180.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="3.1" Row="13" Col="31">t141</Animation>
+  <Animation x="850" y="-138" z="50" Rx="0.00" Ry="90.00" Rz="-360.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="6" Row="13" Col="60">t141</Animation>
+  
+  <Mode x="851" y="-2" z="550" Rx="0" Ry="90" Rz="0" SW="0.14" SH="0.14" SD="0.15" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/jixie/履带轮.jpg" url="mode/jixie/履带轮.zlf" codenum="code_0010" renderDepth="3" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t142</Mode>
+
+  <Animation x="850" y="-2" z="550" Rx="0.00" Ry="90.00" Rz="0.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="0.1" Row="14" Col="1">t142</Animation>
+  <Animation   x="850" y="-2" z="550" Rx="0.00" Ry="90.00" Rz="-179.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="3" Row="14" Col="30">t142</Animation>
+  <Animation x="850" y="-2" z="550" Rx="0.00" Ry="90.00" Rz="-180.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="3.1" Row="14" Col="31">t142</Animation>
+  <Animation x="850" y="-2" z="550" Rx="0.00" Ry="90.00" Rz="-360.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="6" Row="14" Col="60">t142</Animation>
+  
+  <Mode x="808" y="-410" z="400" Rx="90" Ry="90" Rz="0" SW="0.5" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h61</Mode>
+  <Mode x="892" y="-410" z="400" Rx="90" Ry="90" Rz="0" SW="0.5" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h62</Mode>
+  <Mode x="808" y="-470" z="200" Rx="90" Ry="90" Rz="0" SW="0.5" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h63</Mode>
+  <Mode x="892" y="-470" z="200" Rx="90" Ry="90" Rz="0" SW="0.5" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h64</Mode>
+  <Mode x="808" y="-520" z="300" Rx="00" Ry="90" Rz="0" SW="0.14" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h65</Mode>
+  <Mode x="892" y="-520" z="300" Rx="00" Ry="90" Rz="0" SW="0.14" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h66</Mode>
+  <Mode x="808" y="-110" z="300" Rx="00" Ry="90" Rz="-15" SW="0.14" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h67</Mode>
+  <Mode x="892" y="-110" z="300" Rx="00" Ry="90" Rz="-15" SW="0.14" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h68</Mode>
+
+
+
+
+
+
+
+
+
+  <Mode x="1105" y="-425" z="0" Rx="0" Ry="180" Rz="7.5" SW="0.2" SH="0.12" SD="0.12" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/jixie/履带.jpg" url="mode/jixie/履带.zlf" codenum="code_0010" renderDepth="3" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t15</Mode>
+  <Mode x="905" y="-399" z="0" Rx="0" Ry="180" Rz="0" SW="0.12" SH="0.12" SD="0.12" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/jixie/履带轮.jpg" url="mode/jixie/履带轮.zlf" codenum="code_0010" renderDepth="3" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t151</Mode>
+
+  <Animation x="905" y="-399" z="0" Rx="0.00" Ry="180.00" Rz="0.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="0.1" Row="15" Col="1">t151</Animation>
+  <Animation  x="905" y="-399" z="0" Rx="0.00" Ry="180.00" Rz="-179.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="3" Row="15" Col="30">t151</Animation>
+  <Animation  x="905" y="-399" z="0" Rx="0.00" Ry="180.00" Rz="-180.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="3.1" Row="15" Col="31">t151</Animation>
+  <Animation x="905" y="-399" z="0" Rx="0.00" Ry="180.00" Rz="-360.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="6" Row="15" Col="60">t151</Animation>
+  
+  <Mode x="1305" y="-451" z="0" Rx="0" Ry="180" Rz="0" SW="0.12" SH="0.12" SD="0.12" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/jixie/履带轮.jpg" url="mode/jixie/履带轮.zlf" codenum="code_0010" renderDepth="3" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t152</Mode>
+
+  <Animation x="1305" y="-451" z="0" Rx="0.00" Ry="180.00" Rz="0.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="0.1" Row="16" Col="1">t152</Animation>
+  <Animation x="1305" y="-451" z="0" Rx="0.00" Ry="180.00" Rz="-179.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="3" Row="16" Col="30">t152</Animation>
+  <Animation x="1305" y="-451" z="0" Rx="0.00" Ry="180.00" Rz="-180.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="3.1" Row="16" Col="31">t152</Animation>
+  <Animation x="1305" y="-451" z="0" Rx="0.00" Ry="180.00" Rz="-360.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="6" Row="16" Col="60">t152</Animation>
+
+  <Mode x="1000" y="-560" z="-30" Rx="90" Ry="90" Rz="0" SW="0.2" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h69</Mode>
+  <Mode x="1000" y="-560" z="30" Rx="90" Ry="90" Rz="0" SW="0.2" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h70</Mode>
+  <Mode x="1200" y="-590" z="-30" Rx="90" Ry="90" Rz="0" SW="0.2" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h71</Mode>
+  <Mode x="1200" y="-590" z="30" Rx="90" Ry="90" Rz="0" SW="0.2" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h72</Mode>
+  <Mode x="1100" y="-500" z="-30" Rx="0" Ry="0" Rz="0" SW="0.13" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h73</Mode>
+  <Mode x="1100" y="-500" z="30" Rx="0" Ry="0" Rz="0" SW="0.13" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h74</Mode>
+
+
+
+
+  <Mode x="-1100" y="-300" z="530" Rx="0" Ry="180" Rz="-12" SW="0.38" SH="0.12" SD="0.12" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/jixie/履带.jpg" url="mode/jixie/履带.zlf" codenum="code_0010" renderDepth="3" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t16</Mode>
+  <Mode x="-710" y="-218" z="530" Rx="0" Ry="180" Rz="0" SW="0.1" SH="0.1" SD="0.12" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/jixie/履带轮.jpg" url="mode/jixie/履带轮.zlf" codenum="code_0010" renderDepth="3" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t161</Mode>
+
+  <Animation  x="-710" y="-218" z="530" Rx="0.00" Ry="180.00" Rz="0.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="0.1" Row="17" Col="1">t161</Animation>
+  <Animation  x="-710" y="-218" z="530" Rx="0.00" Ry="180.00" Rz="-179.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="3" Row="17" Col="30">t161</Animation>
+  <Animation  x="-710" y="-218" z="530" Rx="0.00" Ry="180.00" Rz="-180.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="3.1" Row="17" Col="31">t161</Animation>
+  <Animation  x="-710" y="-218" z="530" Rx="0.00" Ry="180.00" Rz="-360.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="6" Row="17" Col="60">t161</Animation>
+
+  <Mode x="-1485" y="-382" z="530" Rx="0" Ry="180" Rz="0" SW="0.12" SH="0.12" SD="0.12" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/jixie/履带轮.jpg" url="mode/jixie/履带轮.zlf" codenum="code_0010" renderDepth="3" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t162</Mode>
+
+  <Animation  x="-1485" y="-382" z="530" Rx="0.00" Ry="180.00" Rz="0.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="0.1" Row="18" Col="1">t162</Animation>
+  <Animation  x="-1485" y="-382" z="530" Rx="0.00" Ry="180.00" Rz="-179.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="3" Row="18" Col="30">t162</Animation>
+  <Animation  x="-1485" y="-382" z="530" Rx="0.00" Ry="180.00" Rz="-180.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="3.1" Row="18" Col="31">t162</Animation>
+  <Animation  x="-1485" y="-382" z="530" Rx="0.00" Ry="180.00" Rz="-360.00" SW="2" SH="2" SD="2" color="0xebe9e9" Alpha="1" time="6" Row="18" Col="60">t162</Animation>
+
+  <Mode x="-1320" y="-500" z="500" Rx="90" Ry="90" Rz="0" SW="0.2" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h75</Mode>
+  <Mode x="-1320" y="-500" z="560" Rx="90" Ry="90" Rz="0" SW="0.2" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h76</Mode>
+  <Mode x="-860" y="-400" z="500" Rx="90" Ry="90" Rz="0" SW="0.2" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h77</Mode>
+  <Mode x="-860" y="-400" z="560" Rx="90" Ry="90" Rz="0" SW="0.2" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h78</Mode>
+  <Mode x="-1090" y="-340" z="500" Rx="0" Ry="0" Rz="12" SW="0.32" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h79</Mode>
+  <Mode x="-1090" y="-340" z="560" Rx="0" Ry="0" Rz="12" SW="0.32" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h80</Mode>
+  <Mode x="-1090" y="-500" z="500" Rx="0" Ry="0" Rz="0" SW="0.3" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h81</Mode>
+  <Mode x="-1090" y="-500" z="560" Rx="0" Ry="0" Rz="0" SW="0.3" SH="0.08" SD="0.08" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="" url="mode/jixie/管.zlf" codenum="code_0002" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">h82</Mode>
+
+
+
+
+ 
+</SysMode>

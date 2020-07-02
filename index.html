@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>中立方发动机虚拟仿真</title>
+		
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<style>
+			body {
+				color: #fff;
+				font-family:Monospace;
+				font-size:13px;
+				text-align:center;
+				background-color: #fff;
+				margin: 0px;
+				overflow: hidden;
+			}
+			#info {
+				position: absolute;
+				top: 30px; ;
+				left:20px;
+				padding: 5px;
+			}
+			a {
+				color: #2983ff;
+			}
+		</style>
+
+         <!--             库文件调用                     -->
+		<script charset="gb2312" language="javascript" src="lib/three.js" type="text/javascript"></script>
+		<script charset="gb2312" language="javascript" src="lib/Detector.js" type="text/javascript"></script>
+		<script charset="gb2312" language="javascript" src="lib/stats.min.js" type="text/javascript"></script>
+        <script charset="gb2312" language="javascript" src="lib/OrbitControls.js" type="text/javascript"></script>
+          <!--           3djs库文件调用                     -->
+        <script charset="gb2312" language="javascript" src="3Djs/VariableClass_Standard.js" type="text/javascript"></script>
+        <script charset="gb2312" language="javascript" src="3Djs/BaseRenderClass.js" type="text/javascript"></script>
+        <script charset="gb2312" language="javascript" src="3Djs/SceneClass_Standard.js" type="text/javascript"></script>
+        <script charset="gb2312" language="javascript" src="3Djs/CameraClass.js" type="text/javascript"></script>
+         <script charset="gb2312" language="javascript" src="3Djs/LightClass.js" type="text/javascript"></script>
+
+	</head>
+    <script  charset="gb2312" language="javascript"  type="text/javascript" >
+        var m_VarGlobal = new VariableClass();
+        var clock = new THREE.Clock();
+        var mixer, animationClip;
+        function InitWebgl() {
+          
+            m_VarGlobal.m_BaseRender = new BaseRenderer('webgl');
+            m_VarGlobal.m_BaseSence = new BaseScene();
+          
+            var grid = new THREE.GridHelper(40, 40, 0x888888, 0x888888);
+            grid.position.set(0, -1.1, 0);
+            Obj_Add(grid);
+           // camera = new THREE.PerspectiveCamera(40, window.innerWidth / window.innerHeight, 1, 100);
+          
+            m_VarGlobal.m_Camera = new PerspeCamera(0, 10, 50);
+
+            m_VarGlobal.m_Camera.lookAtPos(new THREE.Vector3(-1.22, 2.18, 4.58));
+            m_VarGlobal.m_BaseSence.m_Scene.add(new THREE.AmbientLight(0x404040));
+            pointLight = new THREE.PointLight(0xffffff, 1);
+            pointLight.position.copy(m_VarGlobal.m_Camera.m_Camera.position);
+            m_VarGlobal.m_BaseSence.m_Scene.add(pointLight);
+
+            m_VarGlobal.m_Controls = new THREE.OrbitControls(m_VarGlobal.m_Camera.m_Camera, document.getElementById('webgl'));
+
+            new THREE.ObjectLoader().load("pump/pump.json", function (model) {
+
+                Obj_Add(model);
+                mixer = new THREE.AnimationMixer(model);
+                mixer.clipAction(model.animations[0]).play();
+                onRenderTick();
+            });
+        }
+
+    </script>
+	<body style="background-color:Blue" onload="InitWebgl()">
+
+		<div id="webgl"></div>
+
+		<div id="info" style=" font-size:xx-large; font-family:@黑体">
+			 中立方发动机虚拟仿真
+		</div>
+       
+		<script>
+//		    var m_VarGlobal = new VariableClass();
+//			var scene, camera, pointLight, stats;
+
+//			var renderer, mixer, animationClip;
+
+//			var clock = new THREE.Clock();
+//			m_VarGlobal.m_BaseRender = new BaseRenderer('webgl');
+//			m_VarGlobal.m_BaseSence = new BaseScene();
+//			
+//			
+//			stats = new Stats();
+
+			
+			//scene = new THREE.Scene();
+		
+			
+			
+		</script>
+
+	</body>
+
+</html>

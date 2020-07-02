@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SysMode>
+	<init CameraX="0"  CameraY="500"  CameraZ="1500" bgcolor="#000000" bgImage="" skyBox="false" skyBoxSize="100" skyBox1="mode/posx1.jpg" skyBox2="mode/posx1.jpg" skyBox3="mode/posy1.jpg" skyBox4="mode/negy.jpg" skyBox5="mode/posx1.jpg" skyBox6="mode/posx1.jpg">init</init>
+	<Scene x="0" y="0" z="0" Rx="0" Ry="0" Rz="0"  SW="1" SH="1" SD="1" CtrlMin_X="-1"  CtrlMax_X="-1"  CtrlMin_Y="-1"  CtrlMax_Y="-1"  CtrlMin_Z="300"  CtrlMax_Z="20000">Scene</Scene>
+
+	<Material color="0xffffff" ambient="0x808080" emissive="0xdfd2cc" specular="0x111111" shininess="30" perPixel="true" skinning="false" Alpha="1" DoubleSide="2" img="mode/dibanq.jpg" envMap="false" reflectivity="1" refractionRatio="0.98">code_init</Material>
+
+<!--  <Wall x="-245" y="-500" z="-0" Rx="0" Ry="90" Rz="0" DW="500" DH="200" DD="10" img="mode/Room/tong.jpg"  iw="1" ih="1" codenum="code_0003" renderDepth="5" >Wall_0</Wall>
+  <Wall x="245" y="-500" z="-0" Rx="0" Ry="90" Rz="0" DW="500" DH="200" DD="10" img="mode/Room/tong.jpg"  iw="1" ih="1" codenum="code_0003" renderDepth="5" >Wall_1</Wall>
+  <Wall x="-0" y="-500" z="-245" Rx="-0" Ry="0" Rz="0" DW="500" DH="200" DD="10" img="mode/Room/tong.jpg"  iw="1" ih="1" codenum="code_0003" renderDepth="5" >Wall_2</Wall>
+  <Wall x="-0" y="-500" z="245" Rx="0" Ry="0" Rz="0" DW="500" DH="200" DD="10" img="mode/Room/tong.jpg"  iw="1" ih="1" codenum="code_0003" renderDepth="5" >Wall_3</Wall>
+ 
+  <Wall x="0" y="-599" z="-0" Rx="90" Ry="0" Rz="0" DW="500" DH="500" DD="10" img="mode/Room/di.jpg"  iw="1" ih="1" codenum="code_0003" renderDepth="5" >Wall_4</Wall>
+  <Wall x="0" y="-400" z="-0" Rx="90" Ry="0" Rz="0" DW="1000" DH="1000" DD="2" img="mode/Room/shai.png"  iw="1" ih="1" codenum="code_0003" renderDepth="5" >Wall_5</Wall>
+-->
+
+	<Pic x="0" y="-600" z="-0" Rx="-90" Ry="0" Rz="0" DW="26250" DH="26250" DD="3500" iw="1" ih="1"  img="mode/Room/jidi.jpg" codenum="code_0001" renderDepth="1024" >FLoor_1</Pic>
+  
+  
+    <Light x="0" y="0" z="200" color="0xffffff"  type="AmbientLight">Light_1</Light>
+	<Light x="-0" y="4000" z="-0"  color="0xffffff"  inten="0.5" type="DirectionLight">Light_2</Light>
+
+<!--	<Pic x="0" y="1200" z="-0" Rx="-90" Ry="0" Rz="180" DW="3500" DH="3500" DD="3500" iw="1" ih="1" img="mode/pengding.jpg" codenum="code_0001" renderDepth="1024" >FLoor_2</Pic>-->
+
+	<Pic x="13125" y="3000" z="-0" Rx="-90" Ry="-90" Rz="0" DW="7500" DH="26250" DD="26250" iw="1" ih="10" img="mode/Room/jiqiang.jpg" codenum="code_0001" renderDepth="1024" >FLoor_3</Pic>
+	<Pic x="-13125" y="3000" z="-0" Rx="90" Ry="-90" Rz="180" DW="7500" DH="26250" DD="26250" iw="1" ih="10" img="mode/Room/jiqiang.jpg" codenum="code_0001" renderDepth="1024" >FLoor_4</Pic>
+	<Pic x="0" y="3000" z="13125" Rx="-0" Ry="0" Rz="90" DW="7500" DH="26250" DD="26250" iw="1" ih="10" img="mode/Room/jiqiang.jpg" codenum="code_0001" renderDepth="1024" >FLoor_5</Pic>
+	<Pic x="0" y="3000" z="-13125" Rx="0" Ry="0" Rz="90" DW="7500" DH="26250" DD="26250" iw="1" ih="10" img="mode/Room/jiqiang.jpg" codenum="code_0001" renderDepth="1024" >FLoor_6</Pic>
+
+
+	<Mode x="-0" y="-390" z="-2000" Rx="0" Ry="90" Rz="0" SW="1.5" SH="1.5" SD="1.5" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/Room/秤.jpg" url="mode/Room/秤.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t0</Mode>
+	
+	<Mode x="-0" y="-599" z="-0" Rx="0" Ry="90" Rz="0" SW="1" SH="1" SD="1" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/Room/盒.jpg" url="mode/Room/盒.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t100</Mode>
+
+	
+	<Mode x="-1150" y="-451" z="-75" Rx="0" Ry="90" Rz="0" SW="11" SH="11" SD="11" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/Room/垃圾桶.jpg" url="mode/Room/垃圾桶.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t1</Mode>
+	<Mode x="1150" y="-451" z="-75" Rx="0" Ry="90" Rz="0" SW="11" SH="11" SD="11" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/Room/垃圾桶.jpg" url="mode/Room/垃圾桶.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t2</Mode>
+	<Mode x="-975" y="-451" z="575" Rx="0" Ry="90" Rz="0" SW="11" SH="11" SD="11" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/Room/垃圾桶.jpg" url="mode/Room/垃圾桶.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t3</Mode>
+	<Mode x="975" y="-451" z="575" Rx="0" Ry="90" Rz="0" SW="11" SH="11" SD="11" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/Room/垃圾桶.jpg" url="mode/Room/垃圾桶.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t4</Mode>
+	<Mode x="-900" y="-451" z="-650" Rx="0" Ry="90" Rz="0" SW="11" SH="11" SD="11" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/Room/垃圾桶.jpg" url="mode/Room/垃圾桶.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t5</Mode>
+	<Mode x="-500" y="-451" z="975" Rx="0" Ry="90" Rz="0" SW="11" SH="11" SD="11" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/Room/垃圾桶.jpg" url="mode/Room/垃圾桶.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t7</Mode>
+	<Mode x="500" y="-451" z="975" Rx="0" Ry="90" Rz="0" SW="11" SH="11" SD="11" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/Room/垃圾桶.jpg" url="mode/Room/垃圾桶.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t9</Mode>
+	<Mode x="-300" y="-451" z="-1000" Rx="0" Ry="90" Rz="0" SW="11" SH="11" SD="11" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/Room/垃圾桶.jpg" url="mode/Room/垃圾桶.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t8</Mode>
+<Mode x="300" y="-451" z="-1000" Rx="0" Ry="90" Rz="0" SW="11" SH="11" SD="11" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/Room/垃圾桶.jpg" url="mode/Room/垃圾桶.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t10</Mode>
+	<Mode x="900" y="-451" z="-650" Rx="0" Ry="90" Rz="0" SW="11" SH="11" SD="11" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/Room/垃圾桶.jpg" url="mode/Room/垃圾桶.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t11</Mode>
+	<Mode x="0" y="-451" z="1200" Rx="0" Ry="90" Rz="0" SW="11" SH="11" SD="11" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/Room/垃圾桶.jpg" url="mode/Room/垃圾桶.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t6</Mode>
+	
+	
+	<!--<Mode x="0" y="-200" z="0" Rx="0" Ry="0" Rz="0" SW="0.5" SH="0.5" SD="0.5" mm="1" hw="0" fire="0" weight="1" Ltype="1" img="mode/wastemode/pic/mp3.jpg" url="mode/wastemode/obj/mp3.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t20</Mode>
+	<Mode x="0" y="-200" z="0" Rx="0" Ry="0" Rz="0" SW="3" SH="3" SD="3" mm="1" hw="0" fire="0" weight="2" Ltype="8" img="mode/wastemode/pic/包装纸.jpg" url="mode/wastemode/obj/包装纸.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t21</Mode>
+	<Mode x="0" y="-200" z="0" Rx="0" Ry="0" Rz="0" SW="8" SH="8" SD="8" mm="1" hw="0" fire="0" weight="1" Ltype="8" img="mode/wastemode/pic/报纸.jpg" url="mode/wastemode/obj/报纸.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t22</Mode>
+	<Mode x="0" y="-200" z="0" Rx="0" Ry="0" Rz="0" SW="10" SH="10" SD="10" mm="1" hw="0" fire="0" weight="3" Ltype="2" img="mode/wastemode/pic/被单.jpg" url="mode/wastemode/obj/被单.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t23</Mode>
+	<Mode x="0" y="-200" z="0" Rx="90" Ry="0" Rz="0" SW="20" SH="20" SD="20" mm="0" hw="0" fire="0" weight="5" Ltype="7" img="mode/wastemode/pic/玻璃瓶.jpg" url="mode/wastemode/obj/玻璃瓶.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t24</Mode>
+	<Mode x="0" y="-200" z="0" Rx="0" Ry="0" Rz="0" SW="0.05" SH="0.05" SD="0.05" mm="1" hw="0" fire="0" weight="1" Ltype="9" img="mode/wastemode/pic/彩色塑料膜.jpg" url="mode/wastemode/obj/彩色塑料膜.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t25</Mode>
+	<Mode x="0" y="-200" z="0" Rx="0" Ry="0" Rz="0" SW="30" SH="30" SD="30" mm="1" hw="0" fire="0" weight="3" Ltype="3" img="mode/wastemode/pic/菜叶.jpg" url="mode/wastemode/obj/菜叶.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t26</Mode>
+	<Mode x="0" y="-200" z="0" Rx="0" Ry="0" Rz="0" SW="25" SH="30" SD="30" mm="1" hw="0" fire="0" weight="1" Ltype="3" img="mode/wastemode/pic/草.jpg" url="mode/wastemode/obj/草.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t27</Mode>
+	<Mode x="0" y="-200" z="0" Rx="0" Ry="0" Rz="0" SW="2" SH="2" SD="2" mm="1" hw="0" fire="0" weight="4" Ltype="3" img="mode/wastemode/pic/饭.jpg" url="mode/wastemode/obj/饭.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t28</Mode>
+	<Mode x="0" y="-200" z="0" Rx="0" Ry="0" Rz="0" SW="3" SH="3" SD="4" mm="1" hw="0" fire="0" weight="2" Ltype="1" img="mode/wastemode/pic/方便面.jpg" url="mode/wastemode/obj/方便面.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t29</Mode>
+	<Mode x="0" y="-200" z="0" Rx="0" Ry="0" Rz="0" SW="0.15" SH="0.15" SD="0.15" mm="2" hw="0" fire="0" weight="2" Ltype="10" img="mode/wastemode/pic/卫生纸.jpg" url="mode/wastemode/obj/卫生纸.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t30</Mode>
+<Mode x="0" y="-200" z="0" Rx="0" Ry="0" Rz="0" SW="30" SH="30" SD="30" mm="2" hw="0" fire="0" weight="2" Ltype="3" img="mode/wastemode/pic/香蕉皮.jpg" url="mode/wastemode/obj/香蕉皮.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t31</Mode>
+<Mode x="0" y="-200" z="0" Rx="0" Ry="0" Rz="0" SW="1" SH="1" SD="1" mm="2" hw="0" fire="0" weight="2" Ltype="3" img="mode/wastemode/pic/桃核.jpg" url="mode/wastemode/obj/桃核.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t32</Mode>
+<Mode x="0" y="-200" z="0" Rx="0" Ry="0" Rz="0" SW="0.6" SH="0.6" SD="0.6" mm="1" hw="0" fire="0" weight="2" Ltype="3" img="mode/wastemode/pic/宠物粪便.jpg" url="mode/wastemode/obj/宠物粪便.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t33</Mode>
+<Mode x="0" y="-200" z="0" Rx="0" Ry="0" Rz="0" SW="1" SH="1" SD="1" mm="1" hw="0" fire="0" weight="2" Ltype="5" img="mode/wastemode/pic/过期药品.jpg" url="mode/wastemode/obj/过期药品.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t34</Mode>
+<Mode x="0" y="-200" z="0" Rx="90" Ry="0" Rz="0" SW="10" SH="10" SD="10" mm="0" hw="0" fire="0" weight="2" Ltype="3" img="mode/wastemode/pic/花.jpg" url="mode/wastemode/obj/花.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t35</Mode>
+<Mode x="0" y="-200" z="0" Rx="90" Ry="0" Rz="0" SW="1.2" SH="1.2" SD="1.2" mm="0" hw="0" fire="0" weight="2" Ltype="5" img="mode/wastemode/pic/化妆品.jpg" url="mode/wastemode/obj/化妆品.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t36</Mode>
+<Mode x="0" y="-200" z="0" Rx="0" Ry="0" Rz="0" SW="20" SH="20" SD="20" mm="1" hw="0" fire="0" weight="2" Ltype="4" img="mode/wastemode/pic/灰渣.jpg" url="mode/wastemode/obj/灰渣.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t37</Mode>
+<Mode x="0" y="-200" z="0" Rx="90" Ry="0" Rz="0" SW="2.5" SH="3" SD="3" mm="0" hw="0" fire="0" weight="2" Ltype="9" img="mode/wastemode/pic/可乐.jpg" url="mode/wastemode/obj/可乐.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t38</Mode>
+<Mode x="0" y="-200" z="0" Rx="0" Ry="0" Rz="0" SW="10" SH="10" SD="10" mm="0" hw="0" fire="0" weight="2" Ltype="5" img="mode/wastemode/pic/馒头.jpg" url="mode/wastemode/obj/馒头.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t39</Mode>
+<Mode x="0" y="-200" z="0" Rx="0" Ry="0" Rz="0" SW="15" SH="15" SD="15" mm="1" hw="0" fire="0" weight="2" Ltype="3" img="mode/wastemode/pic/面包.jpg" url="mode/wastemode/obj/面包.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t40</Mode>
+<Mode x="0" y="-200" z="0" Rx="0" Ry="0" Rz="0" SW="1.2" SH="1.5" SD="1.5" mm="1" hw="0" fire="0" weight="2" Ltype="8" img="mode/wastemode/pic/木板.jpg" url="mode/wastemode/obj/木板.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t41</Mode>
+<Mode x="0" y="-200" z="0" Rx="0" Ry="0" Rz="0" SW="5" SH="5" SD="5" mm="1" hw="0" fire="0" weight="2" Ltype="10" img="mode/wastemode/pic/尿不湿.jpg" url="mode/wastemode/obj/尿不湿.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t42</Mode>
+<Mode x="0" y="-200" z="0" Rx="0" Ry="0" Rz="0" SW="10" SH="10" SD="10" mm="1" hw="0" fire="0" weight="2" Ltype="5" img="mode/wastemode/pic/纽扣电池.jpg" url="mode/wastemode/obj/纽扣电池.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t43</Mode>
+<Mode x="0" y="-200" z="0" Rx="90" Ry="0" Rz="0" SW="3" SH="3" SD="3" mm="0" hw="0" fire="0" weight="2" Ltype="3" img="mode/wastemode/pic/苹果.jpg" url="mode/wastemode/obj/苹果.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t44</Mode>
+<Mode x="0" y="-200" z="0" Rx="0" Ry="0" Rz="0" SW="0.2" SH="0.2" SD="0.2" mm="1" hw="0" fire="0" weight="2" Ltype="4" img="mode/wastemode/pic/石块.jpg" url="mode/wastemode/obj/石块.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t45</Mode>
+<Mode x="0" y="-200" z="0" Rx="90" Ry="0" Rz="0" SW="0.003" SH="0.003" SD="0.003" mm="2" hw="0" fire="0" weight="2" Ltype="1" img="mode/wastemode/pic/收音机.jpg" url="mode/wastemode/obj/收音机.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t46</Mode>
+<Mode x="0" y="-200" z="0" Rx="0" Ry="0" Rz="0" SW="35" SH="35" SD="35" mm="1" hw="0" fire="0" weight="2" Ltype="1" img="mode/wastemode/pic/手机.jpg" url="mode/wastemode/obj/手机.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t47</Mode>
+<Mode x="0" y="-200" z="0" Rx="90" Ry="0" Rz="0" SW="0.7" SH="0.7" SD="0.7" mm="2" hw="0" fire="0" weight="2" Ltype="1" img="mode/wastemode/pic/薯片.jpg" url="mode/wastemode/obj/薯片.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t48</Mode>
+<Mode x="0" y="-200" z="0" Rx="0" Ry="0" Rz="0" SW="10" SH="10" SD="10" mm="1" hw="0" fire="0" weight="2" Ltype="9" img="mode/wastemode/pic/塑料袋.jpg" url="mode/wastemode/obj/塑料袋.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t49</Mode>
+<Mode x="0" y="-200" z="0" Rx="0" Ry="0" Rz="0" SW="1.5" SH="1.5" SD="1.5" mm="1" hw="0" fire="0" weight="2" Ltype="9" img="mode/wastemode/pic/塑料膜.jpg" url="mode/wastemode/obj/塑料膜.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t50</Mode>
+<Mode x="0" y="-200" z="0" Rx="0" Ry="0" Rz="0" SW="5" SH="5" SD="5" mm="1" hw="0" fire="0" weight="2" Ltype="6" img="mode/wastemode/pic/铁钉.jpg" url="mode/wastemode/obj/铁钉.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t51</Mode>
+<Mode x="0" y="-200" z="0" Rx="90" Ry="0" Rz="0" SW="4" SH="4" SD="4" mm="1" hw="0" fire="0" weight="2" Ltype="6" img="mode/wastemode/pic/铜丝.jpg" url="mode/wastemode/obj/铜丝.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t52</Mode>
+<Mode x="0" y="-200" z="0" Rx="0" Ry="0" Rz="0" SW="15" SH="15" SD="15" mm="1" hw="0" fire="0" weight="2" Ltype="4" img="mode/wastemode/pic/土块.jpg" url="mode/wastemode/obj/土块.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t53</Mode>
+<Mode x="0" y="-200" z="0" Rx="0" Ry="0" Rz="0" SW="2" SH="2" SD="2" mm="1" hw="0" fire="0" weight="2" Ltype="9" img="mode/wastemode/pic/玩具.jpg" url="mode/wastemode/obj/玩具.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t54</Mode>
+<Mode x="0" y="-200" z="0" Rx="0" Ry="0" Rz="0" SW="0.3" SH="0.3" SD="0.3" mm="1" hw="0" fire="0" weight="2" Ltype="10" img="mode/wastemode/pic/卫生巾.jpg" url="mode/wastemode/obj/卫生巾.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t55</Mode>
+<Mode x="0" y="-200" z="0" Rx="90" Ry="0" Rz="0" SW="50" SH="40" SD="50" mm="0" hw="0" fire="0" weight="2" Ltype="7" img="mode/wastemode/pic/药瓶.jpg" url="mode/wastemode/obj/药瓶.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t56</Mode>
+<Mode x="0" y="-200" z="0" Rx="90" Ry="0" Rz="0" SW="8" SH="8" SD="8" mm="2" hw="0" fire="0" weight="2" Ltype="2" img="mode/wastemode/pic/衣服.jpg" url="mode/wastemode/obj/衣服.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t57</Mode>
+<Mode x="0" y="-200" z="0" Rx="90" Ry="0" Rz="0" SW="2" SH="2" SD="2" mm="2" hw="0" fire="0" weight="2" Ltype="6" img="mode/wastemode/pic/易拉罐.jpg" url="mode/wastemode/obj/易拉罐.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t58</Mode>
+<Mode x="0" y="-200" z="0" Rx="0" Ry="0" Rz="0" SW="1" SH="1" SD="1" mm="1" hw="0" fire="0" weight="2" Ltype="8" img="mode/wastemode/pic/纸.jpg" url="mode/wastemode/obj/纸.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t59</Mode>
+<Mode x="0" y="-200" z="0" Rx="90" Ry="0" Rz="0" SW="4" SH="4" SD="4" mm="1" hw="0" fire="0" weight="2" Ltype="6" img="mode/wastemode/pic/指甲刀.jpg" url="mode/wastemode/obj/指甲刀.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t60</Mode>
+-->
+
+	<Material color="0x676767" ambient="0x676767" emissive="0x676767" specular="0x676767" shininess="10" perPixel="false" skinning="false" Alpha="1" DoubleSide="2" img="mode/dibanq.jpg" envMap="false" reflectivity="0.1" refractionRatio="0.98">code_0001</Material>
+	<Material color="0xffffff" ambient="0xffffff" emissive="0x000000" specular="0xffffff" shininess="30" perPixel="false" skinning="false" Alpha="1" DoubleSide="2" img="mode/dibanq.jpg" envMap="true" reflectivity="1" refractionRatio="0.98">code_0002</Material>
+	<Material color="0xd4d4d4" ambient="0xd4d4d4" emissive="0xd4d4d4" specular="0xd4d4d4" shininess="90" perPixel="false" skinning="false" Alpha="1" DoubleSide="2" img="mode/dibanq.jpg" envMap="false" reflectivity="0.3" refractionRatio="0.98">code_0003</Material>
+	<Material color="0x808080" ambient="0xcccccc" emissive="0x808080" specular="0x808080" shininess="30" perPixel="false" skinning="false" Alpha="1" DoubleSide="2" img="mode/dibanq.jpg" envMap="false" reflectivity="0.3" refractionRatio="0.98">code_0004</Material>
+	<Material color="0xff1b1b" ambient="0xff1b1b" emissive="0xff1b1b" specular="0xff1b1b" shininess="30" perPixel="false" skinning="false" Alpha="0.4" DoubleSide="2" img="mode/dibanq.jpg" envMap="true" reflectivity="1" refractionRatio="0.98">code_0005</Material>
+
+
+</SysMode>
